@@ -177,7 +177,7 @@ Intel one API + cuda + lammps 23jun22
 
 
 ---
-# GPU on wsl
+# GPU on windows 11 wsl2
 
 ## GTX 1050Ti + AMD 5600x 
 cuda + lammps 23jun22
