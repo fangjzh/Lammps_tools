@@ -41,6 +41,7 @@ Model           : Raspberry Pi 3 Model B Plus Rev 1.3
 | 3 | 0.373 | 64.348 | 0.863 |
 | 4 | 0.430 | 55.791 | 0.996 |
 
+
 ---
 # Intel
 
