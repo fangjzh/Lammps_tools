@@ -4,7 +4,7 @@
 #SBATCH -n 64
 ##srun -n 64 ~/fangjzh/bin/lmp_mpi -i in.eam.meam
 export export I_MPI_PMI_LIBRARY=/usr/lib64/libpmi2.so
-program=/public3/home/sc52368/fangjzh/bin/lmp_mpi
+program=~/fangjzh/bin/lmp_mpi
 
 ## cpu info
 cat /proc/cpuinfo | grep 'model name' | uniq > performance.txt

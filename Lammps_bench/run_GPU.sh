@@ -1,5 +1,5 @@
 #!/bin/bash
-program=/public3/home/sc52368/fangjzh/bin/lmp_mpi
+program=~/fangjzh/bin/lmp_mpi
 
 ## cpu info
 cat /proc/cpuinfo | grep 'model name' | uniq > performance.txt
