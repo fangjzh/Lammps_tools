@@ -303,7 +303,7 @@ Intel one API + cuda + lammps 23jun22
 | 6 | 33.465 | 0.717 | 77.466 |
 
 ## GTX 1660 Super + AMD 5600x 
-Intel one API + cuda + lammps 23jun22
+Intel one API + cuda 11.7 + lammps 23jun22
 1 GPU  with n cpu cores
 
 ### Performance
@@ -315,6 +315,20 @@ Intel one API + cuda + lammps 23jun22
 | 4 | 68.626 | 0.350 | 158.856 |
 | 5 | 66.226 | 0.362 | 153.300 |
 | 6 | 65.447 | 0.367 | 151.499 |
+
+## GTX 3060 12G + AMD 5600x 
+Intel one API + cuda 12 + lammps 23jun22 update3
+1 GPU  with n cpu cores
+
+### Performance
+| # of cores | ns/day | hours/ns | timeseteps/s |
+|:----:|:----:|:----:|:----:|
+| 1 | 68.792 | 0.349 | 159.241 |
+| 2 | 80.733 | 0.297 | 186.881 |
+| 3 | 82.165 | 0.292 | 190.197 |
+| 4 | 82.602 | 0.291 | 191.207 |
+| 5 | 79.487 | 0.302 | 183.999 |
+| 6 | 79.111 | 0.303 | 183.127 |
 
 
 ---
@@ -349,8 +363,20 @@ cuda + lammps 23jun22
 |     5      | 51.964 |  0.462   | 120.288      |
 |     6      | 61.482 |  0.390   | 142.320      |
 
+## GTX 3060 12G + AMD 5600x 
+cuda 12 + lammps 23jun22 update3
+1 GPU  with n cpu cores
 
+### Performance
 
+| # of cores | ns/day | hours/ns | timeseteps/s |
+|:----:|:----:|:----:|:----:|
+| 1 | 60.680 | 0.396 | 140.463 |
+| 2 | 60.167 | 0.399 | 139.275 |
+| 3 | 63.054 | 0.381 | 145.958 |
+| 4 | 61.098 | 0.393 | 141.431 |
+| 5 | 64.511 | 0.372 | 149.332 |
+| 6 | 64.023 | 0.375 | 148.201 |
 
 
 
